@@ -1,0 +1,62 @@
+<AppLayout>:
+    orientation: 'vertical'
+
+    Image:
+        source: "images/TOP.png"
+        size_hint: 1, 0.3
+
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Presentation du Produit'
+            font_name: "fonts/BrushScriptStd.otf"
+            size_hint: 1, 0.3
+            font_size: 24
+            color: 0, 0, 0, 1
+            halign: 'center'
+            valign: 'middle'
+
+        Image:
+            source: "images/bottle.png"
+
+        Button:
+            text: 'Scanner'
+            font_size: 20
+            size_hint: 0.3, 0.3
+            background_color: 0.63, 0.37, 1.95, 1
+            color: 1, 1, 1, 1
+            bold: True
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+            border: 0, 0, 0, 0
+            padding: (10, 5)
+            on_press: root.start_scanner_product()
+
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Presentation du paquet'
+            font_name: "fonts/BrushScriptStd.otf"
+            font_size: 24
+            size_hint: 1, 0.3
+            color: 0, 0, 0, 1
+            halign: 'center'
+            valign: 'middle'
+
+        Image:
+            source: "images/box.png"
+
+        Button:
+            text: 'Scanner'
+            font_size: 20
+            size_hint: 0.3, 0.3
+            background_color: 0.63, 0.37, 1.95, 1
+            color: 1, 1, 1, 1
+            bold: True
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+            border: 0, 0, 0, 0
+            padding: (10, 5)
+            on_press: root.start_scanner_paquet()
+
+    Image:
+        source: "images/DOWN.png"
+        size_hint: 1, 0.3
