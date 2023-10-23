@@ -10,6 +10,10 @@ the ability to scan barcode of each student and extract his data and to submit a
 #### 4- printer connection for reports and daylists:
 the ability to print out reports about a student or the list of payements.
 
+### Overview
+![382310358_191123447363382_4915456808682264423_n](https://github.com/WARD-CODE/RESTAURANT_MANAGEMENT_SYSTEM/assets/79150916/f34ded59-0960-45b0-9a64-c371a4342535)
+![385535520_345883174592385_5533713465091806293_n](https://github.com/WARD-CODE/RESTAURANT_MANAGEMENT_SYSTEM/assets/79150916/20451d8e-1f32-4155-bf13-0918a3fa8f11)
+
 ### Dependencies:
 1- using Virtual envirenement : "python -venv or virtualenv <name>"
 2- python modules:
